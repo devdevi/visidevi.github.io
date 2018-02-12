@@ -19,6 +19,15 @@
   color:white;
   background-color: black;
 }
+.myBottonB{
+  border: .5px solid  white;
+  margin-bottom: 10%;
+  font-size:.5em;
+}
+.myBottonB:hover{
+  color: black;
+  background-color: white;
+}
 .brand-logo{
-  font-family: 'Sacramento', cursive !important;
+  font-weight: 300;
 }
