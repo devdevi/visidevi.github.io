@@ -1,14 +1,14 @@
 *{
-  font-family: 'Lato', sans-serif !important;
+  font-family: 'Lato', sans-serif ;
 }
 .jumbotron{
   background-image: url('../img/mela2011_706.jpg');
   background-size: cover;
   background-repeat: no-repeat, repeat;
   background-position: center;
-  filter: gray;
   -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
-   filter: grayscale(0%);
+   filter: grayscale(100%);
+   height: 30em;
 }
 .myBotton{
   border: .5px solid  black;
@@ -30,4 +30,28 @@
 }
 .brand-logo{
   font-weight: 300;
+}
+svg{
+  width: 25%;
+  filter: grayscale(100%);
+
+}
+.apptitudes{
+  display:inline-block;
+}
+.title{
+    padding: 5px 0px;
+    border-bottom: 1px solid rgba(26, 26, 26, 0.09);
+    position: relative 0.09);
+}
+.sub-title {
+    letter-spacing: 3px;
+    font-size: 10px;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+.parallax img{
+
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
 }
