@@ -21,18 +21,6 @@
   /* --------------------------------
   Modules - reusable parts of our design
   -------------------------------- */
-  .cd-container {
-    /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-    width: 90%;
-    max-width: 768px;
-    margin: 0 auto;
-  }
-  .cd-container:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
   .has-top-margin {
     /* this class is given - using jQuery - to the .cd-main-content following the .cd-secondary-nav when it becomes fixed */
   }
