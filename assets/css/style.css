@@ -1,10 +1,3 @@
-
-*, *:after, *:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  
   body {
     font-size: 100%;
     font-family: "Open Sans", sans-serif;
@@ -227,6 +220,10 @@
       font-size: 32px;
       font-size: 2rem;
     }
+    #services, #quiensoy .section ,  #contacto  .section {
+      margin-top:  auto;
+      margin-bottom:  auto;
+    }
   }
   @media only screen and (min-width: 1170px) {
     #cd-intro {
@@ -236,19 +233,17 @@
       padding-top: 250px;
     }
   }
-  
   .cd-btn {
     display: inline-block;
     padding: 1em 1.8em;
-    background-color:.5px solid  black;
+    background-color: rgba(245,72,74,.9);
     margin-top: 1em;
     border-radius: 20em;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: black;
-    border: .5px solid  black;
+    color: #fff;
 
   }
   .no-touch .cd-btn:hover {
@@ -282,7 +277,7 @@
   -------------------------------- */
   .cd-secondary-nav {
     position: relative;
-    z-index: 1000;
+    z-index: 2;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -532,6 +527,7 @@
     .cd-secondary-nav-trigger {
       display: none;
     }
+    
   }
   
   /* -------------------------------- 
@@ -566,3 +562,12 @@
       font-size: 1.25rem;
     }
   }  
+  .btn-flat:hover{
+    background-color: rgba(235, 235, 235, 0.466);
+    border: .2px  solid  black;
+    border-radius: 2px;
+    
+  }
+  span{
+    z-index: 1;
+  }

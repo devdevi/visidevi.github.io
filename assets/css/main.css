@@ -23,11 +23,17 @@
 .brand-logo{
   font-weight: 300;
 }
-svg{
-  width: 25%;
+#services svg{
+  width: 35%;
   filter: grayscale(100%);
-
+  -webkit-transition: width 1s, height 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s, height 2s; 
 }
+#services svg:hover{
+  width: 50%;
+  filter: grayscale(0%);
+}
+
 .apptitudes{
   display:inline-block;
 }
@@ -50,4 +56,30 @@ svg{
 }
 ul{
   display: inline-block ;
+}
+@media only screen and (min-width: 768px) {
+  #services, #quiensoy .section ,  #contacto  .section {
+    margin-top:  auto;
+    margin-bottom:  auto;
+  }
+}
+@media only screen and (min-width: 375px) {
+  #services, #quiensoy .section ,  #contacto  .section {
+    margin-top:  auto;
+    margin-bottom:  auto;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  #services {
+    margin-top:  10em;
+    margin-bottom:  5em;
+  }
+   #quiensoy .section {
+    margin-top:  10em;
+    margin-bottom:  3em;
+  }
+  #contacto  .section {
+    margin-top:  10em;
+    margin-bottom:  3em;
+  }
 }
