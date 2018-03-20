@@ -235,21 +235,27 @@
   }
   .cd-btn {
     display: inline-block;
-    padding: 1em 1.8em;
-    background-color: rgba(245,72,74,.9);
+    padding: .5em 1.2em;
+    border: 1px solid   rgba(245, 244, 240, 0.616);
     margin-top: 1em;
-    border-radius: 20em;
+    border-radius: 1em;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #fff;
+    color: white;
+    -webkit-transition: padding 1s, border 2s; /* For Safari 3.1 to 6.0 */
+  transition: padding 1s, border 2s; 
 
   }
-  .no-touch .cd-btn:hover {
+  .cd-btn:hover {
     background-color: black;
+    border: 1px solid  black;
+    border-radius: 20em;
     color:white;
+    padding: 1em 1.8em;
   }
+ 
   @media only screen and (min-width: 1170px) {
     .cd-btn.is-hidden {
       /* assign a position fixed and move outside the viewport (on the right) */
