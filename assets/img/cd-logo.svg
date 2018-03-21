@@ -30,28 +30,12 @@
 <defs>
     <style>
       .cls-1 {
-        font-size: 44.531px;
-        fill: #c1c1c1;
-      }
-
-      .cls-1, .cls-2, .cls-3 {
-        font-family: "Open Sans";
-      }
-
-      .cls-2 {
-        font-size: 50px;
-        fill: #d4d4d4;
-        font-weight: 700;
-      }
-
-      .cls-3 {
-        font-size: 25px;
-        fill: #232323;
+        font-size: 77.929px;
+        fill: #fff;
+        font-family: "Savoye LET";
       }
     </style>
   </defs>
-  <text id="Visaka_" data-name="Visaka " class="cls-1" transform="translate(39.117 48.09) scale(1.123)">Visaka </text>
-  <text id="Devi" class="cls-2" transform="translate(190.794 53.976) scale(1.123)">Devi</text>
+  <text id="Visaka_Devi_" data-name="Visaka Devi " class="cls-1" transform="translate(-12.922 80.574) scale(1.123)">Visaka Devi </text>
   <rect x="-105" y="-193" width="471" height="6"/>
-  <text id="Front_End_Developer" data-name="Front End Developer" class="cls-3" x="61.227" y="81.57">Front End Developer</text>
 </svg>
