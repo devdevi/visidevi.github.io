@@ -1,4 +1,8 @@
 $(function() {
+  $('.carousel').carousel();
+  setInterval(function() {
+    $('.carousel').addClass('colorfull').carousel('prev');
+  }, 2500);
   var container = $('#origiName');
   userText = $('#userText');
 

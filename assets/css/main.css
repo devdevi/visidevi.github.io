@@ -23,17 +23,20 @@
 .brand-logo{
   font-weight: 300;
 }
-#services svg{
-  width: 35%;
+#services i{
+  font-size: 6em;
   filter: grayscale(100%);
-  -webkit-transition: width 1s, height 2s; /* For Safari 3.1 to 6.0 */
-  transition: width 1s, height 2s; 
+  -webkit-transition:  font-size 3s, filter .5s; /* For Safari 3.1 to 6.0 */
+  transition:  font-size 3s, filter .5s;
 }
-#services svg:hover{
-  width: 50%;
+#services i:hover{
+  font-size: 10em;
   filter: grayscale(0%);
 }
-
+.colorfull{
+  font-size: 1.5em;
+  filter: grayscale(0%);
+}
 .apptitudes{
   display:inline-block;
 }
