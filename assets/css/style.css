@@ -240,8 +240,8 @@
     display: inline-block;
     padding: .3em 1em;
     background-color: black;
-    color:white;
-    border: 1px solid  white;
+    color:rgba(255, 255, 255, 0.692);
+    border: 1px solid  rgba(255, 255, 255, 0.733);
     border-radius: 1em;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -253,8 +253,8 @@
   }
   .cd-btn:hover {
     background-color: black;
-    color:white;
-    border: 1px solid  white;
+    color:rgba(255, 255, 255, 0.747);
+    border: 1px solid  rgba(255, 255, 255, 0.767);
     border-radius: 20em;
     padding: 1em 1.8em;
   }
@@ -398,7 +398,7 @@
       -o-transform: translateX(-50%);
       transform: translateX(-50%);
       background-repeat: no-repeat;
-      background-image: url(../img/cd-nav-icons.svg);
+      background-image: url("../img/cd-nav-icons.svg");
       -webkit-transition: opacity 0.2s;
       -moz-transition: opacity 0.2s;
       transition: opacity 0.2s;

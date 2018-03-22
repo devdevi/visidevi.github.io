@@ -113,3 +113,10 @@ h2{
 .carousel{
   height: 200px;
 }
+
+.cd-quick-view.animate-width {
+  z-index: 4;
+}
+.cd-quick-view{
+  z-index: 4;
+}
