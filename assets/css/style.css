@@ -187,13 +187,17 @@
   
   -------------------------------- */
   #cd-intro {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 2;
     background-image: url('../img/bio.jpg');
+    opacity: 0.9;
     background-size: cover;
     background-repeat: no-repeat, repeat;
     background-position: center;
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
      filter: grayscale(100%);
-     height: 28em;
   }
   #cd-intro #cd-intro-tagline {
     width: 90%;
@@ -202,13 +206,12 @@
     text-align: center;
     padding-top: 120px;
   }
-  #cd-intro h1 {
-    font-size: 24px;
-    font-size: 1.5rem;
+  #cd-intro h6 {
     font-weight: 300;
     color: #030d18;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   }
+
   @media only screen and (min-width: 768px) {
     #cd-intro {
       height: 400px;
@@ -236,14 +239,15 @@
   .cd-btn {
     display: inline-block;
     padding: .5em 1.2em;
-    border: 1px solid   rgba(245, 244, 240, 0.616);
+    border: 1px solid   rgba(245, 244, 240, 0.568);
+    background-color: black;
     margin-top: 1em;
     border-radius: 1em;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: white;
+    color: rgba(255, 255, 255, 0.856);
     -webkit-transition: padding 1s, border 2s; /* For Safari 3.1 to 6.0 */
   transition: padding 1s, border 2s; 
 
@@ -376,10 +380,10 @@
     }
     .cd-secondary-nav li a b {
       text-transform: uppercase;
-      font-size: 13px;
-      font-size: 0.8125rem;
+      font-size: 18px;
+      font-size: 1rem;
       font-weight: 700;
-      color: rgba(245, 244, 240, 0.616);
+      color: rgba(214, 214, 214, 0.884);
     }
     .cd-secondary-nav li a span {
       position: absolute;
@@ -401,7 +405,7 @@
       transition: opacity 0.2s;
     }
     .cd-secondary-nav li a:hover b, .cd-secondary-nav li a.active b {
-      color: #f0eee1;
+      color: #faf9f6;
     }
     .cd-secondary-nav li:nth-child(1) a span {
       background-position: 0 0;

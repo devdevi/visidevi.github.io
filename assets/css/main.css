@@ -23,18 +23,14 @@
 .brand-logo{
   font-weight: 300;
 }
-#services i{
-  font-size: 6em;
+.carousel-item i{
+  font-size: 7em;
   filter: grayscale(100%);
   -webkit-transition:  font-size 3s, filter .5s; /* For Safari 3.1 to 6.0 */
   transition:  font-size 3s, filter .5s;
 }
-#services i:hover{
+.carousel-item i:hover{
   font-size: 10em;
-  filter: grayscale(0%);
-}
-.colorfull{
-  font-size: 1.5em;
   filter: grayscale(0%);
 }
 .apptitudes{
@@ -59,13 +55,13 @@
 ul{
   display: inline-block ;
 }
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   #services, #quiensoy .section ,  #contacto  .section {
     margin-top:  auto;
     margin-bottom:  auto;
   }
-}
-@media only screen and (min-width: 375px) {
+} */
+/* @media only screen and (min-width: 375px) {
   #services, #quiensoy .section ,  #contacto  .section {
     margin-top:  auto;
     margin-bottom:  auto;
@@ -84,7 +80,7 @@ ul{
     margin-top:  10em;
     margin-bottom:  3em;
   }
-}
+} */
 .waves-effect{
   z-index: 0;
 }
@@ -93,11 +89,24 @@ blockquote {
   padding-left: 1.5rem;
   border-left: 5px solid black;
 }
-th{
-  padding:5em;
-  -webkit-transition: padding 2s;
-  transition: padding 2s;
+th .svg-inline--fa{
+margin: .4em;
+margin-top: 1em;
 }
-th{
- padding: 3em;
+#cd-logo img {
+  max-width: 60%;
+}
+#herramientas i{
+  font-size: 2em;
+  padding-top: 3em;
+  filter: grayscale(100%);
+  -webkit-transition:  font-size 3s, filter .1s; /* For Safari 3.1 to 6.0 */
+  transition:  font-size 3s, filter .1s;
+}
+#herramientas i:hover{
+  font-size: 2.5em;
+  filter: grayscale(0%);
+}
+h2{
+  text-transform: uppercase;
 }
