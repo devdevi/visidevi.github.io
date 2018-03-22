@@ -96,17 +96,7 @@ margin-top: 1em;
 #cd-logo img {
   max-width: 60%;
 }
-#herramientas i{
-  font-size: 2em;
-  padding-top: 3em;
-  filter: grayscale(100%);
-  -webkit-transition:  font-size 3s, filter .1s; /* For Safari 3.1 to 6.0 */
-  transition:  font-size 3s, filter .1s;
-}
-#herramientas i:hover{
-  font-size: 2.5em;
-  filter: grayscale(0%);
-}
+
 h2{
   text-transform: uppercase;
 }
@@ -119,4 +109,16 @@ h2{
 }
 .cd-quick-view{
   z-index: 4;
+}
+#herramientas i{
+  font-size: 4em;
+  filter: grayscale(100%);
+  transition: font-size 1.5s,  filtert 1s; 
+}
+#herramientas i:hover{
+  font-size: 8em;
+  filter: grayscale(0%);
+}
+#herramientas .noTop{
+  margin-top: 2em;
 }
