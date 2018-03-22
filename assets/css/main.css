@@ -110,3 +110,6 @@ margin-top: 1em;
 h2{
   text-transform: uppercase;
 }
+.carousel{
+  height: 200px;
+}

@@ -238,25 +238,24 @@
   }
   .cd-btn {
     display: inline-block;
-    padding: .5em 1.2em;
-    border: 1px solid   rgba(245, 244, 240, 0.568);
+    padding: .3em 1em;
     background-color: black;
-    margin-top: 1em;
+    color:white;
+    border: 1px solid  white;
     border-radius: 1em;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: rgba(255, 255, 255, 0.856);
     -webkit-transition: padding 1s, border 2s; /* For Safari 3.1 to 6.0 */
   transition: padding 1s, border 2s; 
 
   }
   .cd-btn:hover {
     background-color: black;
-    border: 1px solid  black;
-    border-radius: 20em;
     color:white;
+    border: 1px solid  white;
+    border-radius: 20em;
     padding: 1em 1.8em;
   }
  
